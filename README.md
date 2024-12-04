@@ -1,2 +1,2 @@
-# bilisim
-## hellooo
+# bilisim teknolojileri python notlari 
+## degiskenler
