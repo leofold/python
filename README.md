@@ -14,3 +14,13 @@ yas = "15"
 yas = int(yas)
 print(yas + 1)
 ```
+
+```python
+# kullanicidan veri alip degiskene atama
+sayi1 = input("Lütfen bir sayi yazın: ")
+sayi2 = input("Lütfen bir sayi daha yazın: ")
+sayi1 = int(sayi1)
+sayi2 = int(sayi2)
+toplam = sayi1 + sayi2
+print(toplam)
+```
