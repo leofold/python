@@ -1,4 +1,7 @@
 # bilisim teknolojileri python notlari 
+
+telefonunuza "Pydroid 3" veya benzeri bir uygulama kurun
+
 ## degiskenler
 ```python
 # str() parantez icine yazilan degiskeni metinsel ifadeye cevirir
