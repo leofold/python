@@ -41,3 +41,24 @@ print(isimler) # Fatma degerini ekrana yazar.
  
 # diziler 0 dan baslayarak gider. ornegin 0. deger Ali'dir
 ```
+
+#DONGULER
+
+```python
+dizi = range(10) # [0,1,2,3,4,5,6,7,8,9]
+dizi[1]
+```
+
+```python
+isimler = ["Ali", "Ayşe", "Fatma"]
+for i in isimler:
+    print("merhaba, " + i) # ekrana merhaba ve i degiskenini yaz.
+```
+
+```python
+for index in range(10):            # asagidaki ifadeyi 10 kez yaz
+    print(f"merhaba, {index}") # ekrana merhaba ve i degiskenini yaz.
+```
+
+
+
