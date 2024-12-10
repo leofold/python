@@ -27,3 +27,17 @@ sayi2 = int(sayi2)
 toplam = sayi1 + sayi2
 print(toplam)
 ```
+
+
+# DIZILER
+```python
+# isim = "Mahmut"
+isimler = ["Ali", "Ayşe", "Fatma"]
+
+# isimler.append("huseyin")
+# isimler.pop() # sondaki degeri siler
+isimler.remove("Ayşe") # ayse degerindeki kaydi siler.
+print(isimler) # Fatma degerini ekrana yazar.
+ 
+# diziler 0 dan baslayarak gider. ornegin 0. deger Ali'dir
+```
