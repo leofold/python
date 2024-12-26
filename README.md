@@ -20,8 +20,13 @@ print(yas + 1)
 
 ```python
 # kullanicidan veri alip degiskene atama
+#kullanicinin girmis oldugu sayiyi sayi1 degiskenine atar.
 sayi1 = input("Lütfen bir sayi yazın: ")
+
+#kullanicinin girmis oldugu sayiyi sayi2 degiskenine atar.
 sayi2 = input("Lütfen bir sayi daha yazın: ")
+
+# sayi1 degiskenini metinsel bir ifadeden sayisal bir ifadeye cevirir
 sayi1 = int(sayi1)
 sayi2 = int(sayi2)
 toplam = sayi1 + sayi2
@@ -34,7 +39,7 @@ print(toplam)
 # isim = "Mahmut"
 isimler = ["Ali", "Ayşe", "Fatma"]
 
-# isimler.append("huseyin")
+# isimler.append("huseyin") #isimler listesine huseyin i ekler.
 # isimler.pop() # sondaki degeri siler
 isimler.remove("Ayşe") # ayse degerindeki kaydi siler.
 print(isimler) # Fatma degerini ekrana yazar.
