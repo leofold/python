@@ -57,7 +57,7 @@ for i in isimler:
 
 ```python
 for index in range(10):            # asagidaki ifadeyi 10 kez yaz
-    print(f"merhaba, {index}") # ekrana merhaba ve i degiskenini yaz.
+    print(f"merhaba, {index}") # ekrana merhaba ve index degiskenini yaz.
 ```
 
 
