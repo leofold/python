@@ -65,5 +65,22 @@ for index in range(10):            # asagidaki ifadeyi 10 kez yaz
     print(f"merhaba, {index}") # ekrana merhaba ve index degiskenini yaz.
 ```
 
+# tahmin etme oyunu
 
+import random
+
+rastgele_sayi = random.randint(1, 5)  # 1 ile 100 arasında rastgele bir tam sayı
+
+
+```python
+for i in range(3):
+    tahmin_edilen = input("bir sayi giriniz")
+    tahmin_edilen = int(tahmin_edilen)
+    if rastgele_sayi == tahmin_edilen: 
+        print("tebrikler sayiyi bildiniz")
+        break
+    else: 
+        print("uff sayiyi bilemediniz!!! hihh")
+print("rastgele sayimiz: " + str(rastgele_sayi))
+```
 
