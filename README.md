@@ -67,12 +67,13 @@ for index in range(10):            # asagidaki ifadeyi 10 kez yaz
 
 # tahmin etme oyunu
 
+
+
+```python
 import random
 
 rastgele_sayi = random.randint(1, 5)  # 1 ile 100 arasında rastgele bir tam sayı
 
-
-```python
 for i in range(3):
     tahmin_edilen = input("bir sayi giriniz")
     tahmin_edilen = int(tahmin_edilen)
