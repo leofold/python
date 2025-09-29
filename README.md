@@ -15,3 +15,11 @@ print(ad)
 print(ad + " bugun okula gelmedi")
 print(ad + " uykusunu almamis")
 ```
+
+```python
+ad = "ahmet"    # string
+yas = 14        # integer
+kac_bardak_su = 6.5 # float
+cinsiyet = "E"  # char
+okuyomu = True  # boolean
+```
