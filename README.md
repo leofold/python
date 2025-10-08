@@ -17,8 +17,9 @@ print(ad + " uykusunu almamis")
 ```
 
 ```python
-ad = "ahmet"    # string -> str
-yas = 14        # integer -> int
-kac_bardak_su = 6.5 # float -> float
-okuyomu = True  # boolean -> bool
+ad = "ozgur"        # string -> str
+yas = 16            # integer -> int
+ondalik = 2.5       # float -> float
+vatandas_mi = False  # boolean -> bool
+telefon = None       # NoneType
 ```
