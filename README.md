@@ -31,3 +31,18 @@ ondalik: float = 2.5       # float -> float
 vatandas_mi: bool = False  # boolean -> bool
 telefon: None = None       # NoneType
 ```
+
+```python
+# MATEMATIK OPERATORLERI
+# + - * / = 
+
+# MANTIKSAL OPERATORLER
+# VE, VEYA, DEGIL
+# AND, OR, NOT
+if ad == "ozgur" or yas == 15:
+```
+
+
+
+
+    print("bilgiler dogru")t6ni8i8u7
