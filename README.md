@@ -1,7 +1,8 @@
 # bilisim teknolojileri python notlari 
 
 telefonunuza "Pydroid 3" veya benzeri bir uygulama kurun.
-bilgisayarlariniza "python" kurulumu yaptiktan sonra "VS Code" uygulamasini kurun.
+bilgisayarlariniza "python" kurulumu yaptiktan sonra "VS Code" uygulamasini kurun. 
+Jupyter Notebook ile de python kodlarinizi calistirabilirsiniz.
 
 ```python
 sayi = 2  # sayi degisikenine 2 degeri atar.
