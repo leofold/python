@@ -40,10 +40,8 @@ telefon: None = None       # NoneType
 # MANTIKSAL OPERATORLER
 # VE, VEYA, DEGIL
 # AND, OR, NOT
-if ad == "ozgur" or yas == 15:
+ad == "ozgur" or yas == 15 # CIKTI: True
+ad == "ozgur" or yas == 16 # CIKTI: True
+ad == "ozgur" and yas == 15 # CIKTI: False
+vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ```
-
-
-
-
-    print("bilgiler dogru")t6ni8i8u7
