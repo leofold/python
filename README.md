@@ -45,3 +45,15 @@ ad == "ozgur" or yas == 16 # CIKTI: True
 ad == "ozgur" and yas == 15 # CIKTI: False
 vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ```
+
+```python
+yazili_1 = 70
+yazili_2 = 15
+ortalama = (yazili_1 + yazili_2) / 2 
+if ortalama > 69:
+    print('dersi iyi notla gecti yihuu')
+elif ortalama > 49: 
+    print('dersi sadece gecti hmmm')
+else:
+    print('dersten kaldi!!!!!')
+```
