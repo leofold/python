@@ -47,6 +47,14 @@ vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ```
 
 ```python
+ders_notu = 20
+if ders_notu > 49:
+    print("ogrenci dersten gecti")
+else: 
+    print("dersten kaldi")
+```
+
+```python
 yazili_1 = 70
 yazili_2 = 15
 ortalama = (yazili_1 + yazili_2) / 2 
