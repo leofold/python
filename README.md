@@ -46,6 +46,9 @@ ad == "ozgur" and yas == 15 # CIKTI: False
 vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ```
 
+
+## kosullu ifadeler if, else, elif
+
 ```python
 ders_notu = 20
 if ders_notu > 49:
