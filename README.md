@@ -55,13 +55,14 @@ else:
 ```
 
 ```python
-yazili_1 = 70
-yazili_2 = 15
-ortalama = (yazili_1 + yazili_2) / 2 
-if ortalama > 69:
-    print('dersi iyi notla gecti yihuu')
-elif ortalama > 49: 
-    print('dersi sadece gecti hmmm')
+ad = input("bir isim giriniz")
+
+if ad == "ali":
+    print("hos geldin ali")
+elif ad == "hasan":
+    print("hos geldin hasan")
+elif ad == "merve":
+    print("hos geldin merve")
 else:
-    print('dersten kaldi!!!!!')
+    print("sizi tanimiyoruz")
 ```
