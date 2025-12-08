@@ -71,6 +71,15 @@ else:
 ```
 
 ```python
+anlatanlar = ["deniz", "yusuf", "eyup"]
+isim = input("bir isim giriniz")
+if isim in anlatanlar:
+    print("bu kisi listede var")
+else:
+    print("bu kisi listede yok")
+```
+
+```python
 # DONGULER (while, for)
 
 # while dongusu
