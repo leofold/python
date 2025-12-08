@@ -69,3 +69,22 @@ elif ad == "merve":
 else:
     print("sizi tanimiyoruz")
 ```
+
+```python
+# DONGULER (while, for)
+
+# while dongusu
+sayi = 4
+
+while sayi <= 7:
+    print(sayi)
+    sayi += 1
+ 
+```
+
+```python
+# listeler
+liste = ["elma", "armut", "mandalina"]
+for eleman in liste:
+    print(eleman + " bir meyvedir...")
+```
