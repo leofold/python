@@ -70,6 +70,8 @@ else:
     print("sizi tanimiyoruz")
 ```
 
+### bir liste olusturup icindeki elemani tespit etme.
+
 ```python
 anlatanlar = ["deniz", "yusuf", "eyup"]
 isim = input("bir isim giriniz")
@@ -92,7 +94,7 @@ while sayi <= 7:
 ```
 
 ```python
-# listeler
+# listeler ile dongunun kullanimi
 liste = ["elma", "armut", "mandalina"]
 for eleman in liste:
     print(eleman + " bir meyvedir...")
