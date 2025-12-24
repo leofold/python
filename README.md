@@ -47,6 +47,11 @@ vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ```
 
 # ikinci sinav icin sorumlu olacaginiz alan: 
+
+# girinti nedir?
+Python'da girinti, bir kod satırının hangi bloğa ait olduğunu belirtir.
+
+
 ## kosullu ifadeler if, else, elif
 
 ```python
@@ -73,9 +78,9 @@ else:
 ### bir liste olusturup icindeki elemani tespit etme.
 
 ```python
-anlatanlar = ["deniz", "yusuf", "eyup"]
-isim = input("bir isim giriniz")
-if isim in anlatanlar:
+anlatanlar = ["deniz", "yusuf", "eyup"]     # bir liste olusturur ve anlatanlar degiskenine atanir.
+isim = input("bir isim giriniz")            # bir isim giriniz yazip yanina bir kutucuk olusturur.
+if isim in anlatanlar:                      # anlatanlar listesinin icindeki 
     print("bu kisi listede var")
 else:
     print("bu kisi listede yok")
