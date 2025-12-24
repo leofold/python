@@ -50,24 +50,24 @@ vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ## kosullu ifadeler if, else, elif
 
 ```python
-ders_notu = 20         # ders_notu degiskenine 20 degeri atar. 
-if ders_notu > 49:     # ders_notu > 49 dan buyuk ise alt satirdakilerini yap
-    print("ogrenci dersten gecti") # ekrana ogrenci dersten gecti yazar
-else: # kosulumuz yanlis ise alt satirdakileri yap
-    print("dersten kaldi") # ekrana dersten kaldi yazar
+ders_notu = 20                         # ders_notu degiskenine 20 degeri atar. 
+if ders_notu > 49:                     # ders_notu > 49 dan buyuk ise alt satirdakilerini yap
+    print("ogrenci dersten gecti")     # ekrana ogrenci dersten gecti yazar
+else:                                  # kosulumuz yanlis ise alt satirdakileri yap
+    print("dersten kaldi")             # ekrana dersten kaldi yazar
 ```
 
 ```python
-ad = input("bir isim giriniz") # bir isim giriniz yazar ve yaninda bir kutucuk belirir. 
+ad = input("bir isim giriniz")  # bir isim giriniz yazar ve yaninda bir kutucuk belirir. 
 
-if ad == "ali":
-    print("hos geldin ali")
-elif ad == "hasan":
-    print("hos geldin hasan")
-elif ad == "merve":
-    print("hos geldin merve")
+if ad == "ali":                 # eger ad degiskenin degeri "ali" ise alt satirdaki kod calisir.
+    print("hos geldin ali")     # ekrana "hos geldin ali" yazar
+elif ad == "hasan":             # eger ad degiskeninin degeri "hasan" ise alttaki satirdaki kod calisir
+    print("hos geldin hasan")   # ekrana "hos geldin hasan" yazar
+elif ad == "merve":             # eger ad degiskeninin degeri "merve" ise alttaki satirdaki kod calisir
+    print("hos geldin merve")   # ekrana "hos geldin merve" yazar
 else:
-    print("sizi tanimiyoruz")
+    print("sizi tanimiyoruz")   # yukardaki kosullar gerceklesmezse alt satirdaki kod calisir 
 ```
 
 ### bir liste olusturup icindeki elemani tespit etme.
