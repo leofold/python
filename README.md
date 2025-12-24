@@ -46,19 +46,19 @@ ad == "ozgur" and yas == 15 # CIKTI: False
 vatandas_mi == True and ondalik == 2.5 # CIKTI: True
 ```
 
-
+# ikinci sinav icin sorumlu olacaginiz alan: 
 ## kosullu ifadeler if, else, elif
 
 ```python
-ders_notu = 20
-if ders_notu > 49:
-    print("ogrenci dersten gecti")
-else: 
-    print("dersten kaldi")
+ders_notu = 20         # ders_notu degiskenine 20 degeri atar. 
+if ders_notu > 49:     # ders_notu > 49 dan buyuk ise alt satirdakilerini yap
+    print("ogrenci dersten gecti") # ekrana ogrenci dersten gecti yazar
+else: # kosulumuz yanlis ise alt satirdakileri yap
+    print("dersten kaldi") # ekrana dersten kaldi yazar
 ```
 
 ```python
-ad = input("bir isim giriniz")
+ad = input("bir isim giriniz") # bir isim giriniz yazar ve yaninda bir kutucuk belirir. 
 
 if ad == "ali":
     print("hos geldin ali")
