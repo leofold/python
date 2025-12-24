@@ -71,8 +71,8 @@ elif ad == "hasan":             # eger ad degiskeninin degeri "hasan" ise alttak
     print("hos geldin hasan")   # ekrana "hos geldin hasan" yazar
 elif ad == "merve":             # eger ad degiskeninin degeri "merve" ise alttaki satirdaki kod calisir
     print("hos geldin merve")   # ekrana "hos geldin merve" yazar
-else:
-    print("sizi tanimiyoruz")   # yukardaki kosullar gerceklesmezse alt satirdaki kod calisir 
+else:                           # yukardaki kosullar gerceklesmezse alt satirdaki kod calisir
+    print("sizi tanimiyoruz")    
 ```
 
 ### bir liste olusturup icindeki elemani tespit etme.
@@ -80,27 +80,27 @@ else:
 ```python
 anlatanlar = ["deniz", "yusuf", "eyup"]     # bir liste olusturur ve anlatanlar degiskenine atanir.
 isim = input("bir isim giriniz")            # bir isim giriniz yazip yanina bir kutucuk olusturur.
-if isim in anlatanlar:                      # anlatanlar listesinin icindeki 
-    print("bu kisi listede var")
-else:
-    print("bu kisi listede yok")
+if isim in anlatanlar:                      # isim degiskenindeki degeri anlatanlar ismindeki listede var mi bakar.  
+    print("bu kisi listede var")            # ekrana "bu kisi listede var" yazar
+else:                                       # eger kosul yanlissa alttaki satir calisir.
+    print("bu kisi listede yok")            # ekrana "bu kisi listede yok" yazar
 ```
 
 ```python
 # DONGULER (while, for)
 
 # while dongusu
-sayi = 4
+sayi = 4                 # sayi degiskenine 4 degerini atar.
 
-while sayi <= 7:
-    print(sayi)
-    sayi += 1
+while sayi <= 7:         # sayi <= 7 kosulumuz dogru oldugu surece alt satirdakileri yapar.
+    print(sayi)          # ekrana sayi degiskeninin degerini yazar.
+    sayi += 1            # sayi degiskeninin degerini 1 arttirir.
  
 ```
 
 ```python
 # listeler ile dongunun kullanimi
-liste = ["elma", "armut", "mandalina"]
-for eleman in liste:
-    print(eleman + " bir meyvedir...")
+liste = ["elma", "armut", "mandalina"]     # bir liste olusturur ve liste degiskenine atar: icindeki degerler: "elma, armut ve mandalina" 
+for eleman in liste:                       # bir dongu olusturur ve liste degiskenindekileri sirayla eleman degiskenine atar
+    print(eleman + " bir meyvedir...")     # ekrana eleman degiskeninin degerini ve yanina bir meyvedir yazar
 ```
